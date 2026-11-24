@@ -1,0 +1,9 @@
+From: Alice <alice@example.com>
+To: Bob <bob@recipient.test>
+Subject: Lab sample with partial authentication
+Date: Mon, 23 Nov 2026 10:05:00 +0000
+Return-Path: <bounce@mailer.test>
+Received: from localhost (localhost [127.0.0.1]) by mx.recipient.test with ESMTP id def; Mon, 23 Nov 2026 10:05:02 +0000
+Authentication-Results: mx.recipient.test; spf=pass smtp.mailfrom=example.com; dkim=none; dmarc=none header.from=example.com
+
+This is a self-created lab sample.

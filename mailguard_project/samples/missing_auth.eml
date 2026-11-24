@@ -1,0 +1,6 @@
+From: Test <test@sample.test>
+To: Receiver <receiver.test>
+Subject: Missing authentication header
+Date: Mon, 23 Nov 2026 10:15:00 +0000
+
+No Authentication-Results header is present.

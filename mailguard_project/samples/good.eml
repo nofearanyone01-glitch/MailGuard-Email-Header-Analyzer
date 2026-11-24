@@ -1,0 +1,9 @@
+From: Alice <alice@example.com>
+To: Bob <bob@recipient.test>
+Subject: Lab legitimate message
+Date: Mon, 23 Nov 2026 10:00:00 +0000
+Return-Path: <alice@example.com>
+Received: from mailout.example.com (mailout.example.com [203.0.113.10]) by mx.recipient.test with ESMTPS id abc; Mon, 23 Nov 2026 10:00:02 +0000
+Authentication-Results: mx.recipient.test; spf=pass smtp.mailfrom=example.com; dkim=pass header.d=example.com; dmarc=pass header.from=example.com
+
+This is a self-created lab sample.

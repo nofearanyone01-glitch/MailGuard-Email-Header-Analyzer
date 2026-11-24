@@ -1,0 +1,9 @@
+From: Security Team <alerts@examp1e.com>
+To: Bob <bob@recipient.test>
+Subject: Lab spoofing simulation
+Date: Mon, 23 Nov 2026 10:10:00 +0000
+Return-Path: <attacker@evil.test>
+Received: from localhost (localhost [127.0.0.1]) by mx.recipient.test with ESMTP id ghi; Mon, 23 Nov 2026 10:10:02 +0000
+Authentication-Results: mx.recipient.test; spf=fail smtp.mailfrom=evil.test; dkim=fail header.d=evil.test; dmarc=fail header.from=examp1e.com
+
+This is a self-created lab sample.

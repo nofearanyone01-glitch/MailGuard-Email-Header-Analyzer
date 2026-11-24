@@ -1,0 +1,29 @@
+====================================================================
+MAILGUARD — EMAIL HEADER ANALYSIS REPORT
+====================================================================
+
+KEY HEADERS
+From: (missing)
+To: (missing)
+Subject: (missing)
+Date: (missing)
+Return-Path: (missing)
+Reply-To: (missing)
+
+RECEIVED RELAY CHAIN (origin -> final delivery)
+No Received headers found.
+
+AUTHENTICATION RESULTS (from Authentication-Results header)
+No authentication data found.
+
+SPOOFING / RELAY FLAGS
+[HIGH] From header is missing or invalid.
+
+FINAL VERDICT: FAIL
+REASONS:
+- No result found for: SPF, DKIM, DMARC
+- HIGH: From header is missing or invalid.
+
+NOTE: Header analysis is heuristic. Authentication-Results is supplied by a receiving system;
+this offline tool does not independently query DNS or cryptographically verify DKIM signatures.
+====================================================================
